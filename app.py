@@ -338,7 +338,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background'], 'color': c
 			dcc.Input(id='input_ineqs4', placeholder='Please Enter the Second Equation.', type='text', style={'width': '50%', 'display': 'inline-block'}),
 		]),
 		html.Div([
-			html.Button('Submit', id='submit_button'),
+			html.Button('Solve', id='submit_button'),
 		]),
 		html.Div([
 			#html.H3(id='output_area', style={'color': colors['text'], 'backgroundColor': colors['background']}),
